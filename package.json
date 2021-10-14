@@ -1,0 +1,28 @@
+{
+  "name": "meanauth",
+  "version": "1.0.1",
+  "description": "MEAN stack 1st app. MEAN 스택을 이용한 기본프로젝트",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "keywords": [
+    "MEAN",
+    "인증",
+    "로그인",
+    "초기프로젝트",
+    "Authentication"
+  ],
+  "author": "이병천",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  }
+}
